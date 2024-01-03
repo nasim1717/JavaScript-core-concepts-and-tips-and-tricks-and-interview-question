@@ -7,6 +7,7 @@ const object = {
 
 function* generator(obj) {
     const entries = Object.entries(obj);
+
     for (let element of entries) {
         yield element[1];
     }
