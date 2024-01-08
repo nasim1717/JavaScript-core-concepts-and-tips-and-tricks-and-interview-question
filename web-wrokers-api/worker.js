@@ -10,3 +10,5 @@ onmessage = function (message) {
 
     postMessage(total);
 };
+
+// worker file a dom er kono access nai
